@@ -14,7 +14,7 @@ ul li {
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
-
+    border: 0.1px #eee solid;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -110,4 +110,9 @@ input {
 .addBtn:hover {
     background-color: #406b0d;
     color: white;
+}
+
+.name h4 {
+    position: relative;
+    bottom: 20px;
 }
